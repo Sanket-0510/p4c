@@ -1,0 +1,945 @@
+/* 
+<P4Program>(1583)
+  <Type_Error>(16)
+    <Declaration_ID>(8)
+    <Declaration_ID>(9)
+    <Declaration_ID>(10)
+    <Declaration_ID>(11)
+    <Declaration_ID>(12)
+    <Declaration_ID>(13)
+    <Declaration_ID>(14)
+  <Type_Extern>(93)
+    <TypeParameters>(18)
+    <Method>(35)
+      <Type_Method>(34)
+        <TypeParameters>(25)
+          <Type_Var>(23)
+        <Type_Void>(21)
+        <ParameterList>(32)
+          <Parameter>(29)
+      <Annotations>(4)
+    <Method>(54)
+      <Type_Method>(53)
+        <TypeParameters>(40)
+          <Type_Var>(38)
+        <Type_Void>(36)
+        <ParameterList>(51)
+          <Parameter>(44)
+          <Parameter>(49)
+      <Annotations>(4)
+    <Method>(67)
+      <Type_Method>(66)
+        <TypeParameters>(60)
+          <Type_Var>(58)
+        <Type_Name>(56)
+          T
+        <ParameterList>(64)
+      <Annotations>(4)
+    <Method>(80)
+      <Type_Method>(79)
+        <TypeParameters>(69)
+        <Type_Void>(68)
+        <ParameterList>(77)
+          <Parameter>(74)
+      <Annotations>(4)
+    <Method>(91)
+      <Type_Method>(90)
+        <TypeParameters>(84)
+        <Type_Bits>(83)
+        <ParameterList>(88)
+      <Annotations>(4)
+    <Annotations>(4)
+  <Type_Extern>(115)
+    <TypeParameters>(96)
+    <Method>(113)
+      <Type_Method>(112)
+        <TypeParameters>(103)
+          <Type_Var>(101)
+        <Type_Void>(99)
+        <ParameterList>(110)
+          <Parameter>(107)
+      <Annotations>(4)
+    <Annotations>(4)
+  <Method>(131)
+  <P4Action>(150)
+  <Declaration_MatchKind>(156)
+  <Method>(170)
+  <Method>(181)
+  <Declaration_MatchKind>(187)
+  <Declaration_Constant>(194)
+  <Type_Struct>(368)
+    <Annotations>(208)
+      <Annotation>(196)
+      <Annotation>(203)
+    <TypeParameters>(210)
+    <StructField>(216)
+      <Annotations>(4)
+      <Type_Bits>(215)
+    <StructField>(220)
+      <Annotations>(4)
+      <Type_Bits>(219)
+    <StructField>(224)
+      <Annotations>(4)
+      <Type_Bits>(223)
+    <StructField>(228)
+      <Annotations>(4)
+      <Type_Bits>(227)
+    <StructField>(232)
+      <Annotations>(4)
+      <Type_Bits>(231)
+    <StructField>(246)
+      <Annotations>(241)
+      <Type_Bits>(245)
+    <StructField>(260)
+      <Annotations>(255)
+      <Type_Bits>(259)
+    <StructField>(274)
+      <Annotations>(269)
+      <Type_Bits>(273)
+    <StructField>(288)
+      <Annotations>(283)
+      <Type_Bits>(287)
+    <StructField>(302)
+      <Annotations>(297)
+      <Type_Bits>(301)
+    <StructField>(316)
+      <Annotations>(311)
+      <Type_Bits>(315)
+    <StructField>(330)
+      <Annotations>(325)
+      <Type_Bits>(329)
+    <StructField>(344)
+      <Annotations>(339)
+      <Type_Bits>(343)
+    <StructField>(348)
+      <Annotations>(4)
+      <Type_Bits>(347)
+    <StructField>(351)
+      <Annotations>(4)
+      <Type_Name>(350)
+        error
+    <StructField>(365)
+      <Annotations>(360)
+      <Type_Bits>(364)
+  <Type_Enum>(375)
+    <Annotations>(4)
+    <Declaration_ID>(371)
+    <Declaration_ID>(372)
+    <Declaration_ID>(373)
+  <Type_Enum>(381)
+    <Annotations>(4)
+    <Declaration_ID>(378)
+    <Declaration_ID>(379)
+  <Type_Extern>(415)
+    <TypeParameters>(383)
+    <Method>(400)
+      <Type_Method>(397)
+        <TypeParameters>(398)
+        <ParameterList>(395)
+          <Parameter>(389)
+          <Parameter>(393)
+      <Annotations>(4)
+    <Method>(413)
+      <Type_Method>(412)
+        <TypeParameters>(402)
+        <Type_Void>(401)
+        <ParameterList>(410)
+          <Parameter>(407)
+      <Annotations>(4)
+    <Annotations>(4)
+  <Type_Extern>(442)
+    <TypeParameters>(418)
+    <Method>(431)
+      <Type_Method>(428)
+        <TypeParameters>(429)
+        <ParameterList>(426)
+          <Parameter>(423)
+      <Annotations>(4)
+    <Method>(440)
+      <Type_Method>(439)
+        <TypeParameters>(433)
+        <Type_Void>(432)
+        <ParameterList>(437)
+      <Annotations>(4)
+    <Annotations>(4)
+  <Type_Extern>(483)
+    <TypeParameters>(445)
+    <Method>(462)
+      <Type_Method>(459)
+        <TypeParameters>(460)
+        <ParameterList>(457)
+          <Parameter>(451)
+          <Parameter>(455)
+      <Annotations>(4)
+    <Method>(481)
+      <Type_Method>(480)
+        <TypeParameters>(467)
+          <Type_Var>(465)
+        <Type_Void>(463)
+        <ParameterList>(478)
+          <Parameter>(472)
+          <Parameter>(476)
+      <Annotations>(4)
+    <Annotations>(4)
+  <Type_Extern>(516)
+    <TypeParameters>(489)
+      <Type_Var>(487)
+    <Method>(502)
+      <Type_Method>(499)
+        <TypeParameters>(500)
+        <ParameterList>(497)
+          <Parameter>(494)
+      <Annotations>(4)
+    <Method>(514)
+      <Type_Method>(513)
+        <TypeParameters>(504)
+        <Type_Void>(503)
+        <ParameterList>(511)
+          <Parameter>(508)
+      <Annotations>(4)
+    <Annotations>(4)
+  <Type_Extern>(579)
+    <TypeParameters>(522)
+      <Type_Var>(520)
+    <Method>(536)
+      <Type_Method>(533)
+        <TypeParameters>(534)
+        <ParameterList>(531)
+          <Parameter>(528)
+      <Annotations>(4)
+    <Method>(561)
+      <Type_Method>(560)
+        <TypeParameters>(547)
+        <Type_Void>(546)
+        <ParameterList>(558)
+          <Parameter>(551)
+          <Parameter>(556)
+      <Annotations>(544)
+    <Method>(577)
+      <Type_Method>(576)
+        <TypeParameters>(563)
+        <Type_Void>(562)
+        <ParameterList>(574)
+          <Parameter>(568)
+          <Parameter>(572)
+      <Annotations>(4)
+    <Annotations>(4)
+  <Type_Extern>(598)
+    <TypeParameters>(582)
+    <Method>(596)
+      <Type_Method>(593)
+        <TypeParameters>(594)
+        <ParameterList>(591)
+          <Parameter>(588)
+      <Annotations>(4)
+    <Annotations>(4)
+  <Method>(621)
+  <Method>(640)
+  <Type_Enum>(651)
+    <Annotations>(4)
+    <Declaration_ID>(642)
+    <Declaration_ID>(643)
+    <Declaration_ID>(644)
+    <Declaration_ID>(645)
+    <Declaration_ID>(646)
+    <Declaration_ID>(647)
+    <Declaration_ID>(648)
+    <Declaration_ID>(649)
+  <Method>(671)
+  <Method>(692)
+  <Method>(731)
+  <Type_Extern>(755)
+    <TypeParameters>(732)
+    <Method>(753)
+      <Type_Method>(750)
+        <TypeParameters>(751)
+        <ParameterList>(748)
+          <Parameter>(737)
+          <Parameter>(742)
+          <Parameter>(746)
+      <Annotations>(4)
+    <Annotations>(4)
+  <Type_Enum>(762)
+    <Annotations>(4)
+    <Declaration_ID>(759)
+    <Declaration_ID>(760)
+  <Type_Extern>(803)
+    <TypeParameters>(774)
+    <Method>(784)
+      <Type_Method>(781)
+        <TypeParameters>(782)
+        <ParameterList>(779)
+      <Annotations>(4)
+    <Method>(801)
+      <Type_Method>(800)
+        <TypeParameters>(791)
+          <Type_Var>(789)
+        <Type_Bits>(787)
+        <ParameterList>(798)
+          <Parameter>(795)
+      <Annotations>(4)
+    <Annotations>(772)
+      <Annotation>(766)
+  <Method>(829)
+  <Method>(862)
+  <Method>(886)
+  <Method>(919)
+  <Method>(935)
+  <Method>(960)
+  <Method>(973)
+  <Method>(998)
+  <Method>(1011)
+  <Method>(1043)
+  <Method>(1063)
+  <Method>(1076)
+  <Method>(1087)
+  <Method>(1098)
+  <Method>(1109)
+  <Method>(1126)
+  <Type_Parser>(1149)
+    <Annotations>(4)
+    <TypeParameters>(1131)
+      <Type_Var>(1128)
+      <Type_Var>(1129)
+    <ParameterList>(1147)
+      <Parameter>(1135)
+      <Parameter>(1139)
+      <Parameter>(1142)
+      <Parameter>(1145)
+  <Type_Control>(1166)
+    <Annotations>(4)
+    <TypeParameters>(1154)
+      <Type_Var>(1151)
+      <Type_Var>(1152)
+    <ParameterList>(1164)
+      <Parameter>(1158)
+      <Parameter>(1162)
+  <Type_Control>(1195)
+    <Annotations>(1174)
+      <Annotation>(1168)
+    <TypeParameters>(1180)
+      <Type_Var>(1177)
+      <Type_Var>(1178)
+    <ParameterList>(1193)
+      <Parameter>(1184)
+      <Parameter>(1188)
+      <Parameter>(1191)
+  <Type_Control>(1224)
+    <Annotations>(1203)
+      <Annotation>(1197)
+    <TypeParameters>(1209)
+      <Type_Var>(1206)
+      <Type_Var>(1207)
+    <ParameterList>(1222)
+      <Parameter>(1213)
+      <Parameter>(1217)
+      <Parameter>(1220)
+  <Type_Control>(1241)
+    <Annotations>(4)
+    <TypeParameters>(1229)
+      <Type_Var>(1226)
+      <Type_Var>(1227)
+    <ParameterList>(1239)
+      <Parameter>(1233)
+      <Parameter>(1237)
+  <Type_Control>(1266)
+    <Annotations>(1249)
+      <Annotation>(1243)
+    <TypeParameters>(1254)
+      <Type_Var>(1252)
+    <ParameterList>(1264)
+      <Parameter>(1258)
+      <Parameter>(1262)
+  <Type_Package>(1329)
+    <Annotations>(4)
+    <TypeParameters>(1271)
+      <Type_Var>(1268)
+      <Type_Var>(1269)
+    <ParameterList>(1327)
+      <Parameter>(1281)
+      <Parameter>(1291)
+      <Parameter>(1300)
+      <Parameter>(1309)
+      <Parameter>(1318)
+      <Parameter>(1325)
+  <Type_Struct>(1335)
+    <Annotations>(4)
+    <TypeParameters>(1330)
+  <Type_Struct>(1342)
+    <Annotations>(4)
+    <TypeParameters>(1337)
+  <P4Parser>(1378)
+    <Type_Parser>(1362)
+      <Annotations>(4)
+      <TypeParameters>(1344)
+      <ParameterList>(1360)
+        <Parameter>(1348)
+          <Annotations>(4)
+          <Type_Name>(1347)
+            packet_in
+        <Parameter>(1352)
+          <Annotations>(4)
+          <Type_Name>(1351)
+            headers
+        <Parameter>(1355)
+          <Annotations>(4)
+          <Type_Name>(1354)
+            metadata
+        <Parameter>(1358)
+          <Annotations>(4)
+          <Type_Name>(1357)
+            standard_metadata_t
+    <ParameterList>(1374)
+    <ParserState>(1370)
+      <Annotations>(4)
+      <PathExpression>(1366)
+        accept
+  <P4Control>(1404)
+    <Type_Control>(1393)
+      <Annotations>(4)
+      <TypeParameters>(1381)
+      <ParameterList>(1391)
+        <Parameter>(1385)
+          <Annotations>(4)
+          <Type_Name>(1384)
+            headers
+        <Parameter>(1389)
+          <Annotations>(4)
+          <Type_Name>(1388)
+            metadata
+    <ParameterList>(1401)
+    <BlockStatement>(1398)
+      <Annotations>(4)
+  <P4Control>(1467)
+    <Type_Control>(1421)
+      <Annotations>(4)
+      <TypeParameters>(1406)
+      <ParameterList>(1419)
+        <Parameter>(1410)
+          <Annotations>(4)
+          <Type_Name>(1409)
+            headers
+        <Parameter>(1414)
+          <Annotations>(4)
+          <Type_Name>(1413)
+            metadata
+        <Parameter>(1417)
+          <Annotations>(4)
+          <Type_Name>(1416)
+            standard_metadata_t
+    <ParameterList>(1464)
+    <BlockStatement>(1461)
+      <Annotations>(4)
+      <IfStatement>(1459)
+  <P4Control>(1495)
+    <Type_Control>(1484)
+      <Annotations>(4)
+      <TypeParameters>(1469)
+      <ParameterList>(1482)
+        <Parameter>(1473)
+          <Annotations>(4)
+          <Type_Name>(1472)
+            headers
+        <Parameter>(1477)
+          <Annotations>(4)
+          <Type_Name>(1476)
+            metadata
+        <Parameter>(1480)
+          <Annotations>(4)
+          <Type_Name>(1479)
+            standard_metadata_t
+    <ParameterList>(1492)
+    <BlockStatement>(1489)
+      <Annotations>(4)
+  <P4Control>(1520)
+    <Type_Control>(1509)
+      <Annotations>(4)
+      <TypeParameters>(1497)
+      <ParameterList>(1507)
+        <Parameter>(1501)
+          <Annotations>(4)
+          <Type_Name>(1500)
+            headers
+        <Parameter>(1505)
+          <Annotations>(4)
+          <Type_Name>(1504)
+            metadata
+    <ParameterList>(1517)
+    <BlockStatement>(1514)
+      <Annotations>(4)
+  <P4Control>(1545)
+    <Type_Control>(1534)
+      <Annotations>(4)
+      <TypeParameters>(1522)
+      <ParameterList>(1532)
+        <Parameter>(1526)
+          <Annotations>(4)
+          <Type_Name>(1525)
+            packet_out
+        <Parameter>(1530)
+          <Annotations>(4)
+          <Type_Name>(1529)
+            headers
+    <ParameterList>(1542)
+    <BlockStatement>(1539)
+      <Annotations>(4)
+  <Declaration_Instance>(1580) */
+/* 
+  <Type_Error>(16)
+    <Declaration_ID>(8)
+    <Declaration_ID>(9)
+    <Declaration_ID>(10)
+    <Declaration_ID>(11)
+    <Declaration_ID>(12)
+    <Declaration_ID>(13)
+    <Declaration_ID>(14) */
+#include <core.p4>
+#define V1MODEL_VERSION 20180101
+#include <v1model.p4>
+
+/* 
+  <Type_Struct>(1335)
+    <Annotations>(4)
+    <TypeParameters>(1330) */
+struct metadata {
+}
+
+/* 
+  <Type_Struct>(1342)
+    <Annotations>(4)
+    <TypeParameters>(1337) */
+struct headers {
+}
+
+/* 
+  <P4Parser>(1378)
+    <Type_Parser>(1362)
+      <Annotations>(4)
+      <TypeParameters>(1344)
+      <ParameterList>(1360)
+        <Parameter>(1348)
+          <Annotations>(4)
+          <Type_Name>(1347)
+            packet_in
+        <Parameter>(1352)
+          <Annotations>(4)
+          <Type_Name>(1351)
+            headers
+        <Parameter>(1355)
+          <Annotations>(4)
+          <Type_Name>(1354)
+            metadata
+        <Parameter>(1358)
+          <Annotations>(4)
+          <Type_Name>(1357)
+            standard_metadata_t
+    <ParameterList>(1374)
+    <ParserState>(1370)
+      <Annotations>(4)
+      <PathExpression>(1366)
+        accept */
+/* 
+    <Type_Parser>(1362)
+      <Annotations>(4)
+      <TypeParameters>(1344)
+      <ParameterList>(1360)
+        <Parameter>(1348)
+          <Annotations>(4)
+          <Type_Name>(1347)
+            packet_in
+        <Parameter>(1352)
+          <Annotations>(4)
+          <Type_Name>(1351)
+            headers
+        <Parameter>(1355)
+          <Annotations>(4)
+          <Type_Name>(1354)
+            metadata
+        <Parameter>(1358)
+          <Annotations>(4)
+          <Type_Name>(1357)
+            standard_metadata_t */
+parser MyParser(/* 
+        <Parameter>(1348)
+          <Annotations>(4)
+          <Type_Name>(1347)
+            packet_in */
+packet_in packet, /* 
+        <Parameter>(1352)
+          <Annotations>(4)
+          <Type_Name>(1351)
+            headers */
+out headers hdr, /* 
+        <Parameter>(1355)
+          <Annotations>(4)
+          <Type_Name>(1354)
+            metadata */
+inout metadata meta, /* 
+        <Parameter>(1358)
+          <Annotations>(4)
+          <Type_Name>(1357)
+            standard_metadata_t */
+inout standard_metadata_t standard_metadata) {
+    /* 
+    <ParserState>(1370) */
+    state start {
+/* 
+      <PathExpression>(1366)
+        accept */
+                transition accept;
+    }
+}
+
+/* 
+  <P4Control>(1404)
+    <Type_Control>(1393)
+      <Annotations>(4)
+      <TypeParameters>(1381)
+      <ParameterList>(1391)
+        <Parameter>(1385)
+          <Annotations>(4)
+          <Type_Name>(1384)
+            headers
+        <Parameter>(1389)
+          <Annotations>(4)
+          <Type_Name>(1388)
+            metadata
+    <ParameterList>(1401)
+    <BlockStatement>(1398)
+      <Annotations>(4) */
+/* 
+    <Type_Control>(1393)
+      <Annotations>(4)
+      <TypeParameters>(1381)
+      <ParameterList>(1391)
+        <Parameter>(1385)
+          <Annotations>(4)
+          <Type_Name>(1384)
+            headers
+        <Parameter>(1389)
+          <Annotations>(4)
+          <Type_Name>(1388)
+            metadata */
+control MyVerifyChecksum(/* 
+        <Parameter>(1385)
+          <Annotations>(4)
+          <Type_Name>(1384)
+            headers */
+inout headers hdr, /* 
+        <Parameter>(1389)
+          <Annotations>(4)
+          <Type_Name>(1388)
+            metadata */
+inout metadata meta) {
+    apply /* 
+    <BlockStatement>(1398) */
+    {
+    }
+}
+
+/* 
+  <P4Control>(1467)
+    <Type_Control>(1421)
+      <Annotations>(4)
+      <TypeParameters>(1406)
+      <ParameterList>(1419)
+        <Parameter>(1410)
+          <Annotations>(4)
+          <Type_Name>(1409)
+            headers
+        <Parameter>(1414)
+          <Annotations>(4)
+          <Type_Name>(1413)
+            metadata
+        <Parameter>(1417)
+          <Annotations>(4)
+          <Type_Name>(1416)
+            standard_metadata_t
+    <ParameterList>(1464)
+    <BlockStatement>(1461)
+      <Annotations>(4)
+      <IfStatement>(1459) */
+/* 
+    <Type_Control>(1421)
+      <Annotations>(4)
+      <TypeParameters>(1406)
+      <ParameterList>(1419)
+        <Parameter>(1410)
+          <Annotations>(4)
+          <Type_Name>(1409)
+            headers
+        <Parameter>(1414)
+          <Annotations>(4)
+          <Type_Name>(1413)
+            metadata
+        <Parameter>(1417)
+          <Annotations>(4)
+          <Type_Name>(1416)
+            standard_metadata_t */
+control MyIngress(/* 
+        <Parameter>(1410)
+          <Annotations>(4)
+          <Type_Name>(1409)
+            headers */
+inout headers hdr, /* 
+        <Parameter>(1414)
+          <Annotations>(4)
+          <Type_Name>(1413)
+            metadata */
+inout metadata meta, /* 
+        <Parameter>(1417)
+          <Annotations>(4)
+          <Type_Name>(1416)
+            standard_metadata_t */
+inout standard_metadata_t standard_metadata) {
+    apply /* 
+    <BlockStatement>(1461) */
+    {
+        /* 
+      <IfStatement>(1459)
+        <Equ>(1430)
+          <Member>(1427)ingress_port
+            <PathExpression>(1426)
+              standard_metadata
+          <Constant>(1429) 1
+            <Type_InfInt>(1428)
+        <BlockStatement>(1440)
+        <IfStatement>(1458) */
+        if (standard_metadata.ingress_port == 1) /* 
+        <BlockStatement>(1440) */
+        {
+            /* 
+          <AssignmentStatement>(1438)
+            <Member>(1435)egress_spec
+              <PathExpression>(1434)
+                standard_metadata
+            <Constant>(1437) 2
+              <Type_InfInt>(1436) */
+            standard_metadata.egress_spec = 2;
+        } else /* 
+        <IfStatement>(1458)
+          <Equ>(1447)
+            <Member>(1444)ingress_port
+              <PathExpression>(1443)
+                standard_metadata
+            <Constant>(1446) 2
+              <Type_InfInt>(1445)
+          <BlockStatement>(1456) */
+        if (standard_metadata.ingress_port == 2) /* 
+          <BlockStatement>(1456) */
+        {
+            /* 
+            <AssignmentStatement>(1454)
+              <Member>(1451)egress_spec
+                <PathExpression>(1450)
+                  standard_metadata
+              <Constant>(1453) 1
+                <Type_InfInt>(1452) */
+            standard_metadata.egress_spec = 1;
+        }
+    }
+}
+
+/* 
+  <P4Control>(1495)
+    <Type_Control>(1484)
+      <Annotations>(4)
+      <TypeParameters>(1469)
+      <ParameterList>(1482)
+        <Parameter>(1473)
+          <Annotations>(4)
+          <Type_Name>(1472)
+            headers
+        <Parameter>(1477)
+          <Annotations>(4)
+          <Type_Name>(1476)
+            metadata
+        <Parameter>(1480)
+          <Annotations>(4)
+          <Type_Name>(1479)
+            standard_metadata_t
+    <ParameterList>(1492)
+    <BlockStatement>(1489)
+      <Annotations>(4) */
+/* 
+    <Type_Control>(1484)
+      <Annotations>(4)
+      <TypeParameters>(1469)
+      <ParameterList>(1482)
+        <Parameter>(1473)
+          <Annotations>(4)
+          <Type_Name>(1472)
+            headers
+        <Parameter>(1477)
+          <Annotations>(4)
+          <Type_Name>(1476)
+            metadata
+        <Parameter>(1480)
+          <Annotations>(4)
+          <Type_Name>(1479)
+            standard_metadata_t */
+control MyEgress(/* 
+        <Parameter>(1473)
+          <Annotations>(4)
+          <Type_Name>(1472)
+            headers */
+inout headers hdr, /* 
+        <Parameter>(1477)
+          <Annotations>(4)
+          <Type_Name>(1476)
+            metadata */
+inout metadata meta, /* 
+        <Parameter>(1480)
+          <Annotations>(4)
+          <Type_Name>(1479)
+            standard_metadata_t */
+inout standard_metadata_t standard_metadata) {
+    apply /* 
+    <BlockStatement>(1489) */
+    {
+    }
+}
+
+/* 
+  <P4Control>(1520)
+    <Type_Control>(1509)
+      <Annotations>(4)
+      <TypeParameters>(1497)
+      <ParameterList>(1507)
+        <Parameter>(1501)
+          <Annotations>(4)
+          <Type_Name>(1500)
+            headers
+        <Parameter>(1505)
+          <Annotations>(4)
+          <Type_Name>(1504)
+            metadata
+    <ParameterList>(1517)
+    <BlockStatement>(1514)
+      <Annotations>(4) */
+/* 
+    <Type_Control>(1509)
+      <Annotations>(4)
+      <TypeParameters>(1497)
+      <ParameterList>(1507)
+        <Parameter>(1501)
+          <Annotations>(4)
+          <Type_Name>(1500)
+            headers
+        <Parameter>(1505)
+          <Annotations>(4)
+          <Type_Name>(1504)
+            metadata */
+control MyComputeChecksum(/* 
+        <Parameter>(1501)
+          <Annotations>(4)
+          <Type_Name>(1500)
+            headers */
+inout headers hdr, /* 
+        <Parameter>(1505)
+          <Annotations>(4)
+          <Type_Name>(1504)
+            metadata */
+inout metadata meta) {
+    apply /* 
+    <BlockStatement>(1514) */
+    {
+    }
+}
+
+/* 
+  <P4Control>(1545)
+    <Type_Control>(1534)
+      <Annotations>(4)
+      <TypeParameters>(1522)
+      <ParameterList>(1532)
+        <Parameter>(1526)
+          <Annotations>(4)
+          <Type_Name>(1525)
+            packet_out
+        <Parameter>(1530)
+          <Annotations>(4)
+          <Type_Name>(1529)
+            headers
+    <ParameterList>(1542)
+    <BlockStatement>(1539)
+      <Annotations>(4) */
+/* 
+    <Type_Control>(1534)
+      <Annotations>(4)
+      <TypeParameters>(1522)
+      <ParameterList>(1532)
+        <Parameter>(1526)
+          <Annotations>(4)
+          <Type_Name>(1525)
+            packet_out
+        <Parameter>(1530)
+          <Annotations>(4)
+          <Type_Name>(1529)
+            headers */
+control MyDeparser(/* 
+        <Parameter>(1526)
+          <Annotations>(4)
+          <Type_Name>(1525)
+            packet_out */
+packet_out packet, /* 
+        <Parameter>(1530)
+          <Annotations>(4)
+          <Type_Name>(1529)
+            headers */
+in headers hdr) {
+    apply /* 
+    <BlockStatement>(1539) */
+    {
+    }
+}
+
+/* 
+  <Declaration_Instance>(1580)
+    <Annotations>(4)
+    <Type_Name>(1548)
+      V1Switch
+    <Vector<Argument>>(1554), size=6
+      <Argument>(1553)
+      <Argument>(1559)
+      <Argument>(1564)
+      <Argument>(1569)
+      <Argument>(1574)
+      <Argument>(1579) */
+V1Switch(/* 
+      <Argument>(1553)
+        <ConstructorCallExpression>(1552)
+          <Type_Name>(1550)
+            MyParser
+          <Vector<Argument>>(1551), size=0 */
+MyParser(), /* 
+      <Argument>(1559)
+        <ConstructorCallExpression>(1558)
+          <Type_Name>(1556)
+            MyVerifyChecksum
+          <Vector<Argument>>(1557), size=0 */
+MyVerifyChecksum(), /* 
+      <Argument>(1564)
+        <ConstructorCallExpression>(1563)
+          <Type_Name>(1561)
+            MyIngress
+          <Vector<Argument>>(1562), size=0 */
+MyIngress(), /* 
+      <Argument>(1569)
+        <ConstructorCallExpression>(1568)
+          <Type_Name>(1566)
+            MyEgress
+          <Vector<Argument>>(1567), size=0 */
+MyEgress(), /* 
+      <Argument>(1574)
+        <ConstructorCallExpression>(1573)
+          <Type_Name>(1571)
+            MyComputeChecksum
+          <Vector<Argument>>(1572), size=0 */
+MyComputeChecksum(), /* 
+      <Argument>(1579)
+        <ConstructorCallExpression>(1578)
+          <Type_Name>(1576)
+            MyDeparser
+          <Vector<Argument>>(1577), size=0 */
+MyDeparser()) main;

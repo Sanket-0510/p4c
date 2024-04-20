@@ -1,0 +1,62 @@
+#include <core.p4>
+#include <v1model.p4>
+
+struct metadata {}
+struct headers {}
+
+/* <--------------------------------------------MyParser------------------------------------------->
+<---------------------------------------------- Testing Multiline Comments-------------------------->
+*/
+parser MyParser(packet_in packet,
+                out headers hdr,
+                inout metadata meta,
+                inout standard_metadata_t standard_metadata) {
+    state start {
+        transition accept;
+    }
+}
+
+control MyVerifyChecksum(inout headers hdr, inout metadata meta) {
+    apply {}
+}
+
+
+// <-------------------------------------------Ingress---------------------------------->
+
+control MyIngress(inout headers hdr,
+                  inout metadata meta,
+                  inout standard_metadata_t standard_metadata) {
+    apply {
+        if (standard_metadata.ingress_port == 1) {
+            standard_metadata.egress_spec = 2;
+        } else if (standard_metadata.ingress_port == 2) {
+            standard_metadata.egress_spec = 1;
+        }
+    }
+}
+
+//<--------------------------------------------Egress-------------------------------------->
+
+control MyEgress(inout headers hdr,
+                 inout metadata meta,
+                 inout standard_metadata_t standard_metadata) {
+    apply {}
+}
+
+control MyComputeChecksum(inout headers hdr, inout metadata meta) {
+    apply {}
+}
+
+control MyDeparser(packet_out packet, in headers hdr) {
+    apply {}
+}
+
+// <----------------------------------------Main-Logic----------------------------------------------->
+V1Switch(
+    MyParser(),
+    MyVerifyChecksum(),
+    MyIngress(),
+    MyEgress(),
+    MyComputeChecksum(),
+    MyDeparser()
+) main;
